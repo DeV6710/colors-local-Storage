@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+#panel{
+    margin: 30px auto;
+    height: 600px;
+    background-color: gray;
+    width: fit-content;
+    text-align: center;
+    border: 2px black solid;
+}
+
+#control ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#control ul li{
+    list-style: none;
+    margin:10px;
+    padding: 75px;
+    border: 2px black solid;
+    
+    background-color: rgb(54, 130, 130);
+}
+
+#control #green{
+  background-color:green;
+}
+
+
+#control #blue{
+   background-color:blue;
+}
+
+#control #red{
+     background-color:red;
+}
+
+#color{
+    margin: 0;
+}
+
+
+#display{
+    margin: 15px auto ; 
+    background-color: bisque;
+    padding: 150px;
+    width: 350px;
+    border: 5px black solid;
+}
